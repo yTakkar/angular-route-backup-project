@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Angular</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+        <script src="angular.js"></script>
+    </head>
+    <body ng-app="app">
+        <div class="nav">
+            <ul>
+                <li><a href="#/cat">Cat</a></li>
+                <li><a href="#/dog">Dog</a></li>
+                <li><a href="#/rat">Rat</a></li>
+            </ul>
+        </div>
+
+        <div ng-view></div>
+
+    </body>
+</html>
